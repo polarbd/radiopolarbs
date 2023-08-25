@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Radio Online</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+    <div class="radio-container">
+        <h1>Radio Online</h1>
+
+        <div class="image-container">
+            <img src="ruta_de_la_imagen.png" alt="Radio Image" style="max-width: 100%;">
+        </div>
+
+        <div class="channel-controls">
+            <button id="prevChannel">&#8249;</button>
+            <div class="channel-counter" id="channelCounter">Canal 1</div>
+            <button id="nextChannel">&#8250;</button>
+        </div>
+
+        <input type="range" class="volume-slider" id="volumeSlider" min="0" max="1" step="0.01" value="1">
+    </div>
+
+    <audio id="radioPlayer" loop>
+        <source id="audioSource" type="audio/mpeg">
+        Tu navegador no soporta la reproducción de audio.
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
