@@ -9,8 +9,8 @@ const volumeSlider = document.getElementById('volumeSlider');
 const channels = [
     '182.mp3',
     'reflexion.mp4',
-    'gossip.mp3',
     '184.ogg',
+    'gossip.mp3',
     '186.ogg'
 ];
 let currentChannelIndex = 0;
